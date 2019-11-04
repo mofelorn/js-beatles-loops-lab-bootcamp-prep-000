@@ -13,6 +13,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {  
   var counter = 0
   var array =[]
+  
   array.push(`${facts[counter]}!!!`)
   counter++
   }
