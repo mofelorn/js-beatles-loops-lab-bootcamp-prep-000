@@ -10,10 +10,9 @@ function theBeatlesPlay(musicians, instruments) {
    return emptyArray
 }
 
-
-
 function johnLennonFacts(facts) {  
-  
+  var counter = 0
+  var box_facts = []
   while (counter < facts.length) {
     box_facts.push(`${facts[counter]}!!!`)
     counter++
