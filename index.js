@@ -17,10 +17,9 @@ const facts = [
   "He hated the sound of his own voice"
 ]
 var counter = 0
+var box_facts = []
 
 function johnLennonFacts(facts) {  
- 
-
   while (counter < facts.length) {
     box_facts.push(`${facts[counter]}!!!`)
     counter++
