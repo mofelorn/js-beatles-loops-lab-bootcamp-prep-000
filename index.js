@@ -10,7 +10,6 @@ function theBeatlesPlay(musicians, instruments) {
    return emptyArray
 }
 
-const facts = []
 var counter = 0
 var box_facts = []
 
