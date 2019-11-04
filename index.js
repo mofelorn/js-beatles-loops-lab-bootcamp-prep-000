@@ -10,3 +10,24 @@ function theBeatlesPlay(musicians, instruments) {
    return emptyArray
 }
 
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+]
+var counter = 0
+
+function johnLennonFacts(facts) {  
+  var box_facts = []
+
+  while (counter < facts.length) {
+    
+    box_facts.push(facts[counter].concat('!!!'))
+  
+    //(`${facts}!!!`)
+    
+    counter++
+  }
+  return box_facts
+}
