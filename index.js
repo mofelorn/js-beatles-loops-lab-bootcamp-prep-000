@@ -19,7 +19,7 @@ const facts = [
 var counter = 0
 
 function johnLennonFacts(facts) {  
-  var box_facts = []
+ 
 
   while (counter < facts.length) {
     box_facts.push(`${facts[counter]}!!!`)
