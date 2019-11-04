@@ -23,7 +23,7 @@ function johnLennonFacts(facts) {
 
   while (counter < facts.length) {
     
-    box_facts.push(facts[counter].concat('!!!'))
+    box_facts.push(`${facts[counter].concat('!!!'))
   
     //(`${facts}!!!`)
     
