@@ -22,12 +22,7 @@ function johnLennonFacts(facts) {
   var box_facts = []
 
   while (counter < facts.length) {
-    
     box_facts.push(`${facts[counter]}!!!`)
-  
-    //(`${facts}!!!`)
-    
     counter++
   }
-  return box_facts
 }
